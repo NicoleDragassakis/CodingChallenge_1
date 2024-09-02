@@ -15,7 +15,7 @@ const productDetails = {
 //Task 3: Finaical Calculation
 let accountBalance =1500.00
 console.log("Initial Balance:", accountBalance);
-//monthly transasctions
+ //monthly transasctions
 accountBalance += 500.00 //payment recived for products and services
 accountBalance -= 1000.00 // total costs
 console.log("Updated accountBalance:", accountBalance); //updated balance is 1000.00
@@ -28,3 +28,9 @@ console.log(employeeScore1 >= employeeScore2);
 console.log(employeeScore1 <= employeeScore2);
 console.log(employeeScore1 === employeeScore2);
 console.log(employeeScore1 !== employeeScore2);
+//Task 5 Access Control System
+var haskeyCard = false;
+var hasPermission = true;
+console.log(haskeyCard && hasPermission);
+console.log(haskeyCard || hasPermission);
+console.log(!hasPermission);
