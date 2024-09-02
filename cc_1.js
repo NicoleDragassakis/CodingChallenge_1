@@ -19,3 +19,12 @@ console.log("Initial Balance:", accountBalance);
 accountBalance += 500.00 //payment recived for products and services
 accountBalance -= 1000.00 // total costs
 console.log("Updated accountBalance:", accountBalance); //updated balance is 1000.00
+//Task 4: employee Preformace Evaluation
+let employeeScore1 = 93
+let employeeScore2 = 87
+console.log(employeeScore1 > employeeScore2);
+console.log(employeeScore1 < employeeScore2);
+console.log(employeeScore1 >= employeeScore2);
+console.log(employeeScore1 <= employeeScore2);
+console.log(employeeScore1 === employeeScore2);
+console.log(employeeScore1 !== employeeScore2);
