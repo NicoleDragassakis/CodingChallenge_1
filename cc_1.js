@@ -12,3 +12,10 @@ const productDetails = {
     name: maintenance deal,
     price: 500.00,
 } 
+//Task 3: Finaical Calculation
+let accountBalance =1500.00
+console.log("Initial Balance:", accountBalance);
+//monthly transasctions
+accountBalance += 500.00 //payment recived for products and services
+accountBalance -= 1000.00 // total costs
+console.log("Updated accountBalance:", accountBalance); //updated balance is 1000.00
